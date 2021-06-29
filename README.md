@@ -1,6 +1,7 @@
 # CiscoRip2
 Cisco Rip Version 2 Yapılandırması
 
+<pre>
 <- Pc , Switch , Router
 * Pc ,  Switch , Router
 -> Pc , Switch , Router
@@ -25,3 +26,4 @@ All : en, conf t, router rip, ver 2, passive-interface gi0/0
 Default rota oluşturma (küçük rip 2 yapılandırmasında geçerli) :
 * : en, conf t, ip route 0.0.0.0 0.0.0.0 244.132.211.24
 * : router rip, ver 2, default-information originate
+</pre>
